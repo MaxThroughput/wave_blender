@@ -16,13 +16,22 @@
 3. **Audition:** Listen to the result directly within the app.
 4. **Export:** Save the final 16-bit PCM file for use in your synthesizer.
 
+## Wave File Requirements
+
+- **Length:** Each imported WAV file must be **at least 5 seconds long**. 
+- **Format:** Files must be **mono** (single channel) and sampled at **44.1 kHz**.
+- **Pitch:** The pitch of each wave file **must be F3 -24c** (F3, minus 24 cents).  
+  *Note: Automatic retuning to the correct pitch will be available in a future update. For now, please ensure your files are already tuned to F3 -24c before importing.*
+
+**Importing files that do not meet these requirements may result in errors or unexpected behavior.**
+
 ## Requirements
 
 - Windows (pre-built executable included)
 - No installation required; simply run `wave_blender_0.4.exe`
 
 ## Known Issues
-- Extract Clean 4096-Sample Window is not working as intended. Please disable for now.
+- None
 
 ## License
 
