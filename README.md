@@ -30,6 +30,8 @@
 - Windows (pre-built executable included)
 - No installation required; simply run `wave_blender_0.4.exe`
 
+![Screenshot](screenshot.png)
+
 ## Known Issues
 - None
 
