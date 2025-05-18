@@ -2,6 +2,8 @@
 
 **wave_blender** is a tool for importing, blending, and exporting `.wav` files into 16-bit PCM files, optimized for use with UDO synthesizers and any other hardware or software that supports 256 sample waveforms.
 
+![Screenshot](screenshot.png)
+
 ## Features
 
 - **Wave Import:** Load 1, 2, 4, or 8 `.wav` files simultaneously.
@@ -18,12 +20,24 @@
 
 **Importing files that do not meet these requirements may result in errors or unexpected behavior.**
 
-## Requirements
+## x86-win64 Requirements
 
 - Windows (pre-built executable included)
-- No installation required; simply run `wave_blender_0.4.exe`
+- No installation required; simply run `wave_blender_0.5.exe`
 
-![Screenshot](screenshot.png)
+## macOS Requirements
+
+To run the pre-built `wave_blender_0.5` binary or `.app` on macOS, you may need to install the following system libraries using [Homebrew](https://brew.sh):
+
+```sh
+brew install portaudio libsndfile tcl-tk
+```
+
+Additionally, ensure you have the Xcode command line tools installed:
+
+```sh
+xcode-select --install
+```
 
 ## Known Issues
 - None
