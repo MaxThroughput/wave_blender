@@ -1,6 +1,6 @@
 ﻿# wave_blender
 
-**wave_blender** is a tool for importing, blending, and exporting `.wav` files into 16-bit PCM files, optimized for use with UDO synthesizers and any other hardware or software that supports 256 sample waveforms.
+**wave_blender** is a tool for importing, blending, and exporting `.wav` files into 16-bit PCM files, optimized for use with UDO synthesizers and any other hardware or software that supports 4096 sample waveforms.
 
 ![Screenshot](screenshot.png)
 
@@ -15,8 +15,6 @@
 
 - **Length:** Each imported WAV file must be **at least 5 seconds long**. Initial silence will be auto-trimmed.
 - **Format:** Files must be **mono** (single channel) and sampled at **44.1 kHz**.
-- **Pitch:** The pitch of each wave file **must be F3 -24c** (F3, minus 24 cents). (Exact 172.2656 Hz)
-  *Note: Automatic retuning to the correct pitch will be available in a future update. For now, please ensure your files are already tuned to F3 -24c before importing.*
 
 **Importing files that do not meet these requirements may result in errors or unexpected behavior.**
 
