@@ -14,18 +14,18 @@
 ## Wave File Requirements
 
 - **Length:** Each imported WAV file must be **at least 5 seconds long**. Initial silence will be auto-trimmed.
-- **Format:** Files must be **mono** (single channel) and sampled at **44.1 kHz**.
+- **Format:** Files must be **mono** (single channel).
 
 **Importing files that do not meet these requirements may result in errors or unexpected behavior.**
 
 ## x86-win64 Requirements
 
 - Windows (pre-built executable included)
-- No installation required; simply run `wave_blender_0.5.exe`
+- No installation required; simply run `wave_blender_0.5.4.exe`
 
 ## macOS Requirements
 
-To run the pre-built `wave_blender_0.5` binary or `.app` on macOS, you may need to install the following system libraries using [Homebrew](https://brew.sh):
+To run the pre-built `wave_blender_0.5.4` binary or `.app` on macOS, you may need to install the following system libraries using [Homebrew](https://brew.sh):
 
 ```sh
 brew install portaudio libsndfile tcl-tk
