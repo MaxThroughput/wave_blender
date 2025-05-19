@@ -2,7 +2,7 @@
 
 **wave_blender** is a tool for importing, blending, and exporting `.wav` files into 16-bit PCM files, optimized for use with UDO synthesizers and any other hardware or software that supports 4096 sample waveforms.
 
-
+![Screenshot](screenshot.png)
 
 ## Features
 
